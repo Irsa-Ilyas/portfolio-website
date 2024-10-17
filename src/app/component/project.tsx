@@ -18,7 +18,7 @@ function Project() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/assets/plant1.jfif"
+                  src="/assets/planty.jfif"
                   width={100}
                   height={100}
                 />
@@ -48,7 +48,7 @@ function Project() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="/assets/bookpic.avif"
+                  src="/assets/booklogo.png"
                   width={100}
                   height={100}
                 />
