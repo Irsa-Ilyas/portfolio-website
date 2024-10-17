@@ -41,7 +41,7 @@ const Contact = () => {
           </div>
           <div className="lg:w-1/3 md:w-1/2flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
             <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-              Let's Connect
+              Let&aposs Connect
             </h2>
             <p className="leading-relaxed mb-5 text-white">
               Feel Free to contact

@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image"; 
 
 function Project() {
   return (
@@ -14,10 +15,12 @@ function Project() {
           <div className="flex flex-wrap -m-4 -mt-[5rem]">
             <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
               <div className="flex relative">
-                <img
+                <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src="/assets/plant1.jfif"
+                  width={100}
+                  height={100}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -42,10 +45,12 @@ function Project() {
             </div>
             <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
               <div className="flex relative">
-                <img
+                <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src="/assets/bookpic.avif"
+                  width={100}
+                  height={100}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -70,10 +75,12 @@ function Project() {
             </div>
             <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
               <div className="flex relative">
-                <img
+                <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src="/assets/cv.jfif"
+                  width={100}
+                  height={100}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
