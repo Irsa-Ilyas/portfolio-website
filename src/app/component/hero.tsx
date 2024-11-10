@@ -40,11 +40,11 @@ function Hero() {
             </div>
           </div>
           <Image
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded border border-[#Fec544] "
             alt="hero"
             width={500}
             height={500}
-            src="/assets/aboutmeimage.avif"
+            src="/assets/about.png"
           />
         </div>
       </section>

@@ -11,7 +11,7 @@ const About = () => {
               alt="hero"
               width={500}
               height={500}
-              src="/assets/aboutmeimage.avif"
+              src="/assets/about.png"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
