@@ -8,11 +8,7 @@ const Contact = () => {
               width="100%"
               height="100%"
               className="absolute inset-0"
-              frameBorder={0}
               title="map"
-              marginHeight={0}
-              marginWidth={0}
-              scrolling="no"
               src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.565481025!2d67.01800672529716!3d24.878685994528173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33fc4ed2f0577%3A0x607c6fa08f2b3ba7!2zRmF3YXJhIENob3drIEdhcmRlbiAoINmB2YjYp9ix24Eg2obZiNqpINqv2KfYsdqI2YYp!5e0!3m2!1sen!2s!4v1728405209470!5m2!1sen!2s"
               style={{ filter: "contrast(1.2) opacity(0.4)" }}
             />
